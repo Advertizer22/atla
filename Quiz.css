@@ -1,0 +1,59 @@
+body {
+	background-color: #880808;
+}
+
+.panel {
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.question {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.options {
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+}
+
+/* Quiz.css */
+
+body {
+    background-image: url('Firelord.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Add additional styles for your quiz elements below */
+
+
+button {
+	margin-right: 75px;
+	margin-top: 8%;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4f98c2;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#score {
+	font-size: 30px;
+	color: darkslategray;
+}
